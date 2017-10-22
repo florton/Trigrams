@@ -1,0 +1,19 @@
+{
+  "name": "trigram_api",
+  "version": "1.0.0",
+  "description": "A listener to cast I ching lots",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Flanders Lorton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "i-ching" :"^0.3.3"
+  },
+  "engines" : {
+    "node": "6.9.2"
+  }
+}
